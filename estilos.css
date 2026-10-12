@@ -1,0 +1,121 @@
+
+/* Configuración general */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #263238;
+}
+
+/* Encabezado */
+.encabezado {
+    background: linear-gradient(135deg, #14532d, #16a34a);
+    color: white;
+}
+
+.encabezado h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.encabezado p {
+    font-size: 1.1rem;
+}
+
+/* Presentación principal */
+.presentacion {
+    background-color: #e8f5e9;
+    border-left: 6px solid #198754;
+}
+
+.presentacion h2 {
+    color: #14532d;
+    font-weight: bold;
+}
+
+.presentacion p {
+    line-height: 1.7;
+}
+
+/* Títulos de secciones */
+.titulo-seccion {
+    margin-bottom: 1.5rem;
+    color: #14532d;
+    font-weight: bold;
+}
+
+/* Tarjetas de libros */
+.tarjeta-libro {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-libro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.portada {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.precio {
+    color: #198754;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Novedades */
+.novedades {
+    background-color: #e0f2fe;
+    border-left: 6px solid #0284c7;
+}
+
+/* Formulario de inicio de sesión */
+.formulario-login {
+    max-width: 480px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-login .form-control {
+    padding: 12px;
+}
+
+.formulario-login .btn {
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Botones */
+.btn {
+    transition: background-color 0.2s ease;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #212529;
+    color: white;
+}
+
+/* Adaptación a pantallas pequeñas */
+@media (max-width: 576px) {
+    .encabezado h1 {
+        font-size: 1.8rem;
+    }
+
+    .presentacion {
+        padding: 1.5rem !important;
+    }
+
+    .formulario-login {
+        padding: 20px;
+    }
+}
