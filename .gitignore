@@ -1,0 +1,12 @@
+# Configuración privada y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+__pycache__/
+*.pyc
+
+# Archivos del editor
+.vscode/
